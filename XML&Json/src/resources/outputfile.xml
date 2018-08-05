@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer xmlns="http://www.example.org/Customer">
+    <id>1</id>
+    <name>Yelgu</name>
+    <dob>1989-10-15-05:00</dob>
+    <annualSalary>0.0</annualSalary>
+    <address>
+        <AptNo>1</AptNo>
+        <City>Irving</City>
+        <State>Texas</State>
+        <Country>USA</Country>
+        <Zip>45420</Zip>
+    </address>
+    <paymentInfo>
+        <cardNumber>12345</cardNumber>
+        <cardName>Visa</cardName>
+        <dateFrom>2012-10-15-05:00</dateFrom>
+        <dateTo>2018-10-15-05:00</dateTo>
+        <cardtype>Creditcard</cardtype>
+    </paymentInfo>
+</customer>
