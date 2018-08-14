@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>imcs.trng.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CustomerOperations</servlet-name>
+  	<display-name>CustomerOperations</display-name>
+  	<description></description>
+  	<servlet-class>imcs.trng.controller.CustomerOperations</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateCustomer</servlet-name>
+  	<display-name>CreateCustomer</display-name>
+  	<description></description>
+  	<servlet-class>imcs.trng.controller.CreateCustomer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadCustomer</servlet-name>
+  	<display-name>ReadCustomer</display-name>
+  	<description></description>
+  	<servlet-class>imcs.trng.controller.ReadCustomer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateCustomer</servlet-name>
+  	<display-name>UpdateCustomer</display-name>
+  	<description></description>
+  	<servlet-class>imcs.trng.controller.UpdateCustomer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteCustomer</servlet-name>
+  	<display-name>DeleteCustomer</display-name>
+  	<description></description>
+  	<servlet-class>imcs.trng.controller.DeleteCustomer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/loginCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerOperations</servlet-name>
+  	<url-pattern>/customerOperation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateCustomer</servlet-name>
+  	<url-pattern>/createCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadCustomer</servlet-name>
+  	<url-pattern>/readCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateCustomer</servlet-name>
+  	<url-pattern>/updateCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteCustomer</servlet-name>
+  	<url-pattern>/deleteCustomer</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
