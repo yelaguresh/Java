@@ -14,7 +14,7 @@ import lombok.ToString;
 @ToString
 @Document(collection="Book")
 public class Book {
-	@Id
+
 private int id;
 private String bookName;
 private String authorName;
